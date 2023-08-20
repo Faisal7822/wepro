@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fevicon link -->
+    <link rel="icon" href="img/Logo.png">
+    <!-- common jquary -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- fontawsome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Wepro</title>
+</head>
+<body>
+    <!-- headear-section start-->
+    <header>
+        <section id="header">
+            <!-- nav section start -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img class="me-5" src="img/Logo.png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav text-end me-auto >
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              HOME
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              ABOUT US
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              PORTFOLIO
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              PAGES
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              BLOG
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">CONTACT US</a>
+                          </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <!-- nav section end -->
+            <!-- slider-section -->
+              <div class="contant">
+                <div id="carouselExampleLight" class="carousel carousel-light slide my-5">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner p-5">
+                      <div class="carousel-item active p-3" data-bs-interval="10000">
+                        <h5>WE CAN HELP YOU</h5>
+                        <h1 class="my-3 display-2 fw-bolder">BOOST YOUR <br> BUSSINESS.</h1>
+                        <a class="btn btn-light" href="#">GET STARTED NOW</a>
+                        <a class="btn btn-success" href="#">TAKE A TOURE</a>
+                      </div>
+                      <div class="carousel-item p-3" data-bs-interval="2000">
+                        <h5>WE PROVIDE YOU NEW IDEA</h5>
+                        <h1 class="my-3 display-2 fw-bolder">SET YOUR <br> DREAM.</h1>
+                        <a class="btn btn-light" href="#">GET STARTED NOW</a>
+                        <a class="btn btn-success" href="#">TAKE A TOURE</a>
+                    
+                      </div>
+                      <div class="carousel-item p-3">
+                        <h5>WE SUPPORTE OUR CUSTOMERS 24 HOURS</h5>
+                        <h1 class="my-3 display-4 fw-bolder">JUST A CALL <br>FOR AN APPOINTMENT.</h1>
+                        <a class="btn btn-light" href="#">GET STARTED NOW</a>
+                        <a class="btn btn-success" href="#">TAKE A TOURE</a>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleLight" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon car-b" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleLight" data-bs-slide="next">
+                      <span class="carousel-control-next-icon car-b" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>                
+              </div>
+        </section>
+        <!-- slider section end -->
+    </header>
+    <!-- header section end -->
+    <main>
+      <!-- service section start -->
+      <section class="container-fluid">
+        <div class="row services">
+          <div class="col-md-3 service">
+            <i class="fa-solid fa-chart-simple fa-2x fa-bounce"></i>
+            <h5 class="my-3">Bussiness Consulting</h5>
+            <p class="my-3">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit.</p>
+            <a href="#">Read More</a>
+          </div>
+          <div class="col-md-3 service">
+            <i class="fa-solid fa-gavel fa-2x fa-shake"></i>
+            <h5 class="my-3">Lawyer Consulting</h5>
+            <p class="my-3">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit.</p>
+            <a href="#">Read More</a>
+          </div>
+          <div class="col-md-3 service">
+            <i class="fa-solid fa-blog fa-2x fa-beat-fade "></i>
+            <h5 class="my-3">Online Consulting</h5>
+            <p class="my-3">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit.</p>
+            <a href="#">Read More</a>
+          </div>
+          <div class="col-md-3 service">
+            <i class="fa-solid fa-earth-americas fa-2x fa-spin"></i>
+            <h5 class="my-3">It Management</h5>
+            <p class="my-3">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit.</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </section>
+      <!-- service section end -->
+      <!-- gallary section start -->
+      <section class="image-gallary my-5">
+        <div class="contaniner-fluid my-3">
+          <div class="row me-auto  mb-5">
+            <div class="col-md-12">
+              <ul class="nav nav-pills gallary justify-content-center">
+                <li class="nav-item ">
+                  <a class="nav-link filter" href="javascript:void(0)" data-filter="Wordpress">Wordpress</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link filter" href="javascript:void(0)" data-filter="Branding">Branding</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link filter" href="javascript:void(0)" data-filter="Statics">Statics</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link filter"href="javascript:void(0)" data-filter="Ecommers">Ecommers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link filter"href="javascript:void(0)" data-filter="Wordpress">Photography</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- mixitup navigation end -->
+          
+          <div class="row me-auto" id="Grid">
+            <div class="col-md-4 mix Wordpress">
+              <div class="content-blo">
+                <img class="img-fluid" src="img/ser1.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="content-blo mix Branding">
+                <img class="img-fluid" src="img/ser2.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="content-blo mix Statics">
+                <img class="img-fluid" src="img/ser3.png" alt="">
+              </div>
+            </div>
+          </div>
+          
+          <div class="row me-auto my-3" id="Grid">
+            <div class="col-md-4 ">
+              <div class="content-blo mix Ecommers">
+                <img class="img-fluid" src="img/ser4.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="content-blo mix Photography">
+                <img class="img-fluid" src="img/ser5.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="content-blo mix Wordpress">
+                <img class="img-fluid" src="img/ser6.png" alt="">
+              </div>
+            </div>
+          </div>
+          <!-- mixitup body end -->
+        </div>             
+      </section>
+      <!-- gallary section end -->
+      <!-- management section start -->
+      <section>
+        <div class="container-fluid management-section text-center p-5">
+          <a class="btn management-btn" href="#">VIEW ALL WORKS</a>
+          <div class="row p-5 gap-3 justify-content-center">
+            <div class="col-md-5 p-5 my-2 owner">
+              <div class="text-start p-3">
+                <p>Vestibulum pharetra libero ut massa rutrum, sit amet imperdiet odio comtempor iaculis id feugiat enim. Ectus eget sem lobortis pellnlobortis pelln tesque vitae ac augue.</p>
+              </div>
+              <div class="management-content d-flex ">
+                <img src="img/owner1.png" alt="">
+                <div class="designation ">
+                  <h5>JANE FOSTER</h5>
+                  <p>Comunity Manager</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 p-5 my-2 owner">
+              <div class="text-start p-3">
+                <p>‘‘ Duis tincidunt lectus eget sem lobortis pelln tesque vitae ac augue. Vestibulum pharetra libero ut massa rutrum, sit amet imperdiet odio comtempor iaculis id feugiat enim. </p>
+              </div>
+              <div class="management-content text-start d-flex">
+                <img src="img/owner1.png" alt="">
+                <div class="designation">
+                  <h5>EMMY WATSON</h5>
+                  <p>Comunity Manager</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- management section end -->
+      <!-- card section start -->
+      <section class="container-fluid pricing-table text-center my-3">
+        <h2 class="my-3">Pricing Table</h2>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4 pricing-card me-auto">
+              <div class="card mx-auto" style="width: 18rem;">
+                <div class="card1">
+                  <img src="img/cont1.png" class="card-img-top image" alt="WEPRO">
+                <div class="overlay">
+                  <div class="text">
+                    <h5>$ <span class="fw-bolder">10.00</span></h5>
+                    <p>per month</p>
+                  </div>
+                </div>
+                </div>
+                <a class="btn btn-primary" href="#">Personal</a>
+                <div class="card-body text-center">
+                  <p>256MB Memory</p>
+                  <p class="card-text">1 User</p>
+                  <p class="card-text">1 Website</p>
+                  <p class="card-text">Unlimited Bandwidth</p>
+                  <p class="card-text">24/7 Support</p>
+                  <a href="#" class="btn btn-info">PURCHASE NOW</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pricing-card me-auto">
+              <div class="card mx-auto" style="width: 18rem;">
+                <div class="card1">
+                  <img src="img/cont1.png" class="card-img-top image" alt="WEPRO">
+                <div class="overlay">
+                  <div class="text">
+                    <h5>$ <span class="fw-bolder">10.00</span></h5>
+                    <p>per month</p>
+                  </div>
+                </div>
+                </div>
+                <a class="btn btn-primary" href="#">Professional</a>
+                <div class="card-body text-center">
+                  <p>256MB Memory</p>
+                  <p class="card-text">1 User</p>
+                  <p class="card-text">1 Website</p>
+                  <p class="card-text">Unlimited Bandwidth</p>
+                  <p class="card-text">24/7 Support</p>
+                  <a href="#" class="btn btn-info">PURCHASE NOW</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pricing-card">
+              <div class="card mx-auto" style="width: 18rem;">
+                <div class="card1">
+                  <img src="img/cont1.png" class="card-img-top image" alt="WEPRO">
+                <div class="overlay">
+                  <div class="text">
+                    <h5>$ <span class="fw-bolder">10.00</span></h5>
+                    <p>per month</p>
+                  </div>
+                </div>
+                </div>
+                <a class="btn btn-primary" href="#">Corporate</a>
+                <div class="card-body text-center">
+                  <p>256MB Memory</p>
+                  <p class="card-text">1 User</p>
+                  <p class="card-text">1 Website</p>
+                  <p class="card-text">Unlimited Bandwidth</p>
+                  <p class="card-text">24/7 Support</p>
+                  <a href="#" class="btn btn-info">PURCHASE NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- card section end -->
+      <!-- news-section start -->
+      <section>
+        <div class="container-fluid text-center my-5">
+          <h2 class="my-5">News/Events</h2>
+          <div class="row">
+            <div class="col-md-4 ">
+              <div class="card mx-auto my-2" style="width: 18rem;">
+                <img src="./img/e3.png" class="card-img-top" alt="Wepro">
+                <div class="card-body">
+                  <h5 class="card-title text-start">Proin gravida nibh vel velit auctor aliquet. </h5>
+                  <p class="card-text text-muted text-start my-3">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit.</p>
+                </div> <hr>
+                <div class="card-body p-3">
+                  <a href="#" class="card-link"><i class="fa-regular fa-clock"></i> <span class="text-muted">2016/05/10</span></a>
+                  <a href="#" class="btn bg-primary ms-3 text-light">READ MORE</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mx-auto my-2" style="width: 18rem;">
+                <img src="./img/e2.png" class="card-img-top" alt="Wepro">
+                <div class="card-body">
+                  <h5 class="card-title text-start">Proin gravida nibh vel velit auctor aliquet. </h5>
+                  <p class="card-text text-muted text-start my-3">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit.</p>
+                </div> <hr>
+                <div class="card-body p-3">
+                  <a href="#" class="card-link"><i class="fa-regular fa-clock"></i> <span class="text-muted">2016/05/10</span></a>
+                  <a href="#" class="btn bg-primary ms-3 text-light">READ MORE</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mx-auto my-2" style="width: 18rem;">
+                <img src="./img/e1.png" class="card-img-top" alt="Wepro">
+                <div class="card-body">
+                  <h5 class="card-title text-start">Proin gravida nibh vel velit auctor aliquet. </h5>
+                  <p class="card-text text-muted text-start my-3">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit.</p>
+                </div> <hr>
+                <div class="card-body p-3">
+                  <a href="#" class="card-link"><i class="fa-regular fa-clock"></i> <span class="text-muted">2016/05/10</span></a>
+                  <a href="#" class="btn bg-primary ms-3 text-light">READ MORE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- news-section end -->
+      <!-- client section start -->
+      <section>
+        <div class="container-fluid text-center my-5 p-5">
+          <h2 class="mt-5">Trusted by 2433+ Clients</h2>
+          <p class="mb-5 text-muted">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+          <div class="row ">
+            <div class="col-md-2"><img src="./img/client1.png" alt=""></div>
+            <div class="col-md-2"><img src="./img/client2.png" alt=""></div>
+            <div class="col-md-2"><img src="./img/client3.png" alt=""></div>
+            <div class="col-md-2"><img src="./img/client4.png" alt=""></div>
+            <div class="col-md-2"><img src="./img/client5.png" alt=""></div>
+            <div class="col-md-2"><img src="./img/client2.png" alt=""></div>
+          </div>
+        </div>
+      </section>
+      <!-- client section end -->
+      <section>
+        <div class="container-fluid">
+          <!-- contact section start -->
+    <section class="contact">
+      <h2 class="text-center">Contact Us</h2>
+      <p class="text-center">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.</p>
+      <div class="form w-50 mx-auto ">
+          <div class="row gy-3">
+              <div class="col-md-4 col-sm-12">
+                <input type="text" class="form-control" value="Full Name" aria-label="Full Name">
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <input type="text" class="form-control" value="Email" aria-label="Email">
+              </div>
+              <div class="col-md-4 col-sm-12">
+                  <input type="text" class="form-control" value="Website" aria-label="Website">
+              </div>
+              <div class="col-12">
+                  <textarea type="text" class="form-control" placeholder="Message"  name="Message" id="" cols="30" rows="5" aria-label="Message"></textarea>
+              </div>
+          </div>
+      </div>
+      <div class="py-5">
+        <form class="text-center">
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>       
+
+    <section class="contact-background py-5">
+      <div class="form w-50 mx-auto ">
+        <div class="row gy-3">
+          <div class="col-md-4 text-center">
+            <i class="fa-solid fa-address-card"></i>
+          </div>
+          <div class="col-md-4 text-center">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="col-md-4 text-center">
+            <i class="fa-solid fa-phone"></i>   
+          </div>
+        </div> 
+        <div class="row gy-3">
+          <div class="col-md-4 text-center">
+           <a href="mailto:info@businesspro.com">info@businesspro.com</a>
+          </div>
+          <div class="col-md-4 text-center">
+            <a  href="#">Proin gravida nibh vel aenean sollicituden</a>
+          </div>
+          <div class="col-md-4 text-center">
+            <a href="tel:+977-1234567890">+977-123456789</a>
+          </div>
+        </div> 
+        </div>
+    </div>
+    </section>  
+  <!-- contact section end --> 
+        </div>
+      </section>
+    </main>
+    <!-- footer section start -->
+    <section class="footer py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <p>Copyright 2022 Wipro. Design by
+              <Span><a href="#">TemplatesJungle</a></span>
+            </p>
+          </div>
+          <div class="col-4 px-3">
+            <a>
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a>
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a>
+              <i class="fa-brands fa-goodreads-g"></i>
+            </a>
+            <a>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a>
+              <i class="fa-sharp fa-solid fa-camera-retro"></i>
+            </a>
+            <a>
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+          <div class="col-4">
+            <p>Privacy Policy
+              <span><a href="#">Terms & conditions</a></span>
+            </p>
+          </div>
+         </div> 
+      </div>
+    </section>
+  <!-- footer section start -->
+    <!-- mixitup js -->
+    <script src="https://www.jqueryscript.net/demo/jQuery-Plugin-For-Filtering-Sorting-Html-Elements-MixItUp/jquery.mixitup.min.js"></script>
+    <!--bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script>
+      $(function(){
+     $('#Grid').mixitup();
+});
+    </script>
+</body>
+</html>

@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Dosis:wght@700&family=Handlee&family=Montserrat:wght@500;600;700&family=Nunito&family=Rampart+One&family=Roboto&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto'
+}
+
+/* header section start */
+#header{
+    background-image: url(img/banner.png);
+    width: 100%;
+    height: 800px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.navbar-toggler{
+    color: white;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+   
+}
+
+.navbar:hover{
+    background-color: blueviolet;
+}
+
+.navbar-brand{
+    margin-left: 100px;
+    /* border: 2px solid white; */
+}
+
+.contant{
+    /* border: 2px solid yellow; */
+    /* margin-top: 50px;
+    margin-left: 100px;
+    display: inline-block; */
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-light{
+    background-color: transparent;
+    color: white;
+    outline-color: white;
+    transition: 1s all;
+}
+
+.btn-light:hover{
+    background-color: #347FE1;
+    color: white;
+    outline: none;
+    
+}
+
+.btn-success{
+    background-color: #347FE1;
+    color: white;
+    margin-left: 20px;
+    transition: 1s all;
+}
+
+.btn-success:hover{
+    background-color: transparent;
+    outline: white;
+}
+
+@media screen and (max-width: 667px) {
+    .btn-success{
+        margin-top: 10px;
+        margin-left: 0;
+    }
+}
+
+.car-b{
+    padding: 20px;
+    
+}
+
+/* .carousel{
+    padding: 80px;
+} */
+/* header section end */
+
+/* service section start */
+.services{
+    padding: 50px;
+}
+
+.service{
+    padding: 50px;
+}
+
+.service a{
+    text-decoration: none;
+    color: black;
+}
+
+.service:hover{
+    background: #347FE1;
+    color: white;
+    margin-top: -120px;
+    border-radius: 80px 0px 80px 0px;
+    box-shadow: 2px 0px 1px 2px rgba(0, 0, 0,.3);
+}
+
+.gallary a{
+    color:black;
+}
+
+.image-gallary{
+    padding: 20px;
+}
+
+.content-blo{
+    /* border: 1px solid red; */
+    padding: 50px;
+    
+}
+
+.content-blo img{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+/* .mix{
+    display: none;
+} */
+/* service section end */
+/* management section start */
+.management-btn{
+    border: 1px solid #347FE1;
+    box-shadow: 1px 0px 2px 1px #347FE1;
+}
+
+.owner{
+    background: #F3F3F3;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+}
+
+.management-content {
+    margin-left: 10px;
+}
+.management-content .designation{
+    margin-left: 20px;
+}
+/* management section end */
+/* pricing table start */
+.btn-primary{
+    background-color: #333333 !important;
+    color: white !important;
+    margin-top: -20px;
+    width: 120px;
+    margin-left: 80px;
+    border-radius: 20px !important;
+    border: none !important;
+    z-index: 1000;
+    font-size: 14px;
+    transition: .5s ease-out;
+}
+
+.btn-primary:hover{
+    background: #347FE1 !important;
+}
+
+.btn-info{
+    background-color: #333333 !important;
+    color: white !important;
+    border-radius: none !important;
+    border: none !important;
+    width: 135px;
+    font-size: 14px;
+    transition: .5s all;
+}
+
+.btn-info:hover{
+    background: #347FE1 !important;
+}
+
+.card1 {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(31, 31, 32,.8);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .card1:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.card a{
+    text-align: center;
+}
+
+.pricing-table{
+    /* border: 2px solid red; */
+    /* background: tomato; */
+    padding: 20px 0;
+    text-align: center !important; 
+}
+
+.pricing-card{
+    /* border: 1px solid yellow; */
+    width: 30% !important;
+    /* margin-left: 30px; */
+    
+}
+
+.card{
+    /* border: 1px solid black; */
+    /* width: 100% !important; */
+}
+/* pricing table end */
+
+/* News/Events start */
+
+.card-body .card-link{
+    text-decoration: none;
+    color: #333333;
+}
+.card-link i, span{
+    font-size: 14px;
+}
+/* News/Events end */
+
+/*contact section  start*/
+.contact{
+    background: #001837;
+}
+.contact h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.contact p{
+    color: #7D8689;
+    font-size: medium;
+    font-weight: 300;
+    padding-left: 20px;
+}
+.contact .form input{
+    background: #001837;
+    color: #fff;
+    font-size: x-small;
+    font-weight: 300;
+}
+.contact .form textarea{
+    background: #001837;
+    color: #fff;
+    font-size: small;
+    font-weight: 300;
+}
+button, input, optgroup, select, textarea{
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 700;
+    padding: 8px 25px;
+    background: rgb(37, 110, 206);
+}
+.contact-background{
+    background:linear-gradient(rgba(37,10,206,.5),rgba(37,10,206,.8)), url(./img/footer-background.jpg);
+    color: #000B19;
+}
+.contact-background i{
+    color: #347FE1;
+    font-size: larger;
+    font-weight: 700;
+}
+.contact-background a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: x-small;
+    font-weight: 500;
+
+}
+/*contact section  end*/
+
+/*footer  section  start*/
+.footer{
+    background: #02002F;
+}
+.footer p{
+    color: #fff;
+    font-size: x-small;
+    font-weight: 300;
+}
+.footer a{
+    color: #fff;
+    font-size: x-small;
+    font-weight: 300;
+    padding-left: 5px;
+}
+.footer span a{
+    color: #fff;
+    font-size: x-small;
+    font-weight: 300;
+    padding-left: 0px;
+}
+.footer span a:hover{
+    color: #347FE1;
+    font-size: x-small;
+    font-weight: 300;
+    padding-left: 0px;
+    text-decoration: none;
+}
+/*footer  section  end*/
